@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Window Size Modifier",
+  "version": "1.0",
+  "description": "Modify window inner and outer dimensions",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
+
